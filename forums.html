@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNRS-Forum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="forums.html">Forums</a></li>
+                    <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Détails</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">Le Forum du CNRS</div>
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Tous</option>
+                    <option value="Titles">Titres</option>
+                    <option value="Descriptions">Description</option>
+                </select>
+                <input type="text" name="q" placeholder="recherche ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Informations Globales</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-comments-o center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Présentation</a></h4>
+                    <p>Description du contenu: présentez-vous, dites-nous de quoi vous êtes passionez, etc... ceci est
+                        la page d'accueil et de présentation.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Sujets</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Dernier post</a></b> par <a href="">User 40211</a>
+                    <br>le <small>23 Jan 2022</small>
+                </div>
+            </div>
+        </div>
+        <!--More-->
+
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Autres Informations</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-comment-o center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Monde Arabe</a></h4>
+                    <p>Description du contenu: présentez-vous, dites-nous de quoi vous êtes passionez, etc... ceci est
+                        la page d'accueil et de présentation..</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Sujets</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Dernier post</a></b> par <a href="">Utilisateur 20125</a>
+                    <br>le <small>22 Jan 2022</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-commenting-o center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Egypte Ancienne</a></h4>
+                    <p>Description du contenu: présentez-vous, dites-nous de quoi vous êtes passionez, etc... ceci est
+                        la page d'accueil et de présentation.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Sujets</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Dernier post</a></b> par <a href="">GhostUser</a>
+                    <br>le <small>21 Jan 2022</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-comments center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Epoque Romaine</a></h4>
+                    <p>Description du contenu: présentez-vous, dites-nous de quoi vous êtes passionez, etc... ceci est
+                        la page d'accueil et de présentation.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Sujets</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Dernier post</a></b> par <a href="">GhostUser</a>
+                    <br>le <small>21 Jan 2022</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-comment center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Proto-Histoire</a></h4>
+                    <p>Description du contenu: présentez-vous, dites-nous de quoi vous êtes passionez, etc... ceci est
+                        la page d'accueil et de présentation.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Sujets</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="#">Dernier post</a></b> par <a href="">GhostUser</a>
+                    <br>le <small>21 Jan 2022</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-comments-o center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Contemporain</a></h4>
+                    <p>Description du contenu: présentez-vous, dites-nous de quoi vous êtes passionez, etc... ceci est
+                        la page d'accueil et de présentation.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Sujets</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Dernier post</a></b> par <a href="">GhostUser</a>
+                    <br>le <small>21 Jan 2022</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>Informations Diverses</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-comments-o center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Moderne</a></h4>
+                    <p>Description du contenu: présentez-vous, dites-nous de quoi vous êtes passionez, etc... ceci est
+                        la page d'accueil et de présentation.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Sujets</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Dernier post</a></b> par <a href="">GhostUser</a>
+                    <br>le <small>21 Jan 2022</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-comments-o center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Paléolithique</a></h4>
+                    <p>Description du contenu: présentez-vous, dites-nous de quoi vous êtes passionez, etc... ceci est
+                        la page d'accueil et de présentation.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Sujets</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Dernier post</a></b> par <a href="">GhostUser</a>
+                    <br>le <small>21 Jan 2022</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-comments-o center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Archéologique</a></h4>
+                    <p>Description du contenu: présentez-vous, dites-nous de quoi vous êtes passionez, etc... ceci est
+                        la page d'accueil et de présentation.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Sujets</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Dernier post</a></b> par <a href="">GhostUser</a>
+                    <br>le <small>21 Jan 2022</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-comments-o center"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Néolithique</a></h4>
+                    <p>Description du contenu: présentez-vous, dites-nous de quoi vous êtes passionez, etc... ceci est
+                        la page d'accueil et de présentation.</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Sujets</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Dernier post</a></b> par <a href="">GhostUser</a>
+                    <br>le <small>21 Jan 2022</small>
+                </div>
+            </div>
+
+
+        </div>
+        <!---->
+    </div>
+
+    <!-- Forum Info -->
+    <div class="forum-info">
+        <div class="chart">
+            CNRS-Forum - Statistiques &nbsp;<i class="fa fa-bar-chart"></i>
+        </div>
+        <span><u>5,369</u> Posts dans <u>48</u> Sujets de <u>8,124</u> Membres.</span><br>
+        <span>Dernier post: <b><a href="">Post Aléatoire</a></b> le 23 Jan 2022 par <a href="">GhostUser</a></span>.<br>
+        <span>Voir <a href="#">les derniers posts</a> .</span><br>
+    </div>
+
+    <footer>
+        <span>&copy; Forum CNRS - 2022</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
